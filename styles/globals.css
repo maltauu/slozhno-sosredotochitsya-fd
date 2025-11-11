@@ -38,11 +38,12 @@ picture {
 
 button,
 a {
-  color: currentColor;
+  color: var(--button-color);
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
   text-decoration: none;
+  outline: 1px solid transparent;
 }
 
 img {

@@ -17,3 +17,8 @@
 :root.theme-dark .header__rec {
   display: block;
 }
+
+:root.theme-dark .header {
+  background-image: var(--cover-image);
+  background-size: cover;
+}

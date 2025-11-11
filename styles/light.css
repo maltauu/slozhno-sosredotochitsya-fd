@@ -38,4 +38,36 @@
   :root .header__rec {
     display: none;
   }
+
+  :root .header {
+    background-image: var(--cover-image);
+    background-size: cover;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: rgba(255, 0, 112, 1);
+    --bg-color: #000028;
+    --text-color: #f1b2ce;
+    --title-color: #db00ff;
+    --title-decor-bg: #FF0070;
+    --title-decor-color: #000028;
+    --section-title-color: #ff0070;
+    --button-color: #FF0070;
+    --button-hover-color: rgba(255, 0, 112, 0.4);
+    --link-shadow-color: #ff0070;
+    --border-color: #ff0070;
+    --rec-color: #ff0070;
+    --cover-image: url('../images/cover-image-dark.png');
+  }
+
+  :root .header__rec {
+    display: block;
+  }
+
+  :root .header {
+    background-image: var(--cover-image);
+    background-size: cover;
+  }
 }
