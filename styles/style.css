@@ -343,11 +343,11 @@
     justify-self: center;
     align-self: start;
   }
-  
+
   .header__theme-menu-list {
     flex-direction: row;
   }
-  
+
   .header__content {
     max-inline-size: 491px;
   }
@@ -359,18 +359,18 @@
   .section-thr {
     grid-template-columns: 1fr;
     grid-template-rows: 0fr 2fr;
-    align-items: start; 
+    align-items: start;
   }
-   
+
   .section-thr .section__title {
-    grid-row: 1; 
+    grid-row: 1;
   }
-  
-  .section-thr .section__content { 
+
+  .section-thr .section__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    grid-row: 2; 
+    grid-row: 2;
   }
 
   .section-context .section__content {
