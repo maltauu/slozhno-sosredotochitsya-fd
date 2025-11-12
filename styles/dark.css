@@ -40,6 +40,10 @@
     --cover-image: url('../images/cover-image-dark.png');
   }
 
+  :root .header__rec {
+    display: block;
+  }
+
   :root .header {
     background-image: var(--cover-image);
     background-size: cover;
