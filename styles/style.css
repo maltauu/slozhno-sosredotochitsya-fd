@@ -34,7 +34,7 @@
 .header {
   display: grid;
   grid-template-rows: 1fr auto 1fr;
-  min-block-size: 100vb;
+  block-size: 100vb;
   padding: var(--page-padding);
   position: relative;
   min-height: 668px;
@@ -83,6 +83,7 @@
   text-transform: lowercase;
   cursor: pointer;
   line-height: 1;
+  border-bottom: 1px solid transparent;
 }
 
 .header__theme-menu-button:hover {
@@ -191,10 +192,11 @@
 
 .link {
   text-shadow: 2px 2px 0 var(--link-shadow-color);
+  color: var(--text-color);
 }
 
 .link:hover {
-  border-block-end: 1px solid currentColor;
+  border-block-end: 1px solid var(--text-color);
 }
 
 .link:focus {
@@ -202,7 +204,7 @@
 }
 
 .link:focus-visible {
-  outline: 1px solid currentColor;
+  outline: 1px solid var(--text-color);
 }
 
 .gallery {
@@ -366,7 +368,7 @@
     grid-row: 1; 
   }
   
-  .section-thr .section__content { 
+  .section-thr .section__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
